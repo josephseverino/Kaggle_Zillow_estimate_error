@@ -45,12 +45,14 @@ Importance:
 
 
 
-<p align="center">
-  <h3>Compare Distributions </>
-  <img src="distribution.png" )
-</p>
 
-## Features Engineering
+
+## Feature Engineering
 
 <span style="font-family:Papyrus"> 
 </span>
+
+<p align="center">
+  <h3>Nearest Neighbor Feature Engineering </>
+  <img src="../Images/NNfeateng.png" )
+</p>
