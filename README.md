@@ -39,8 +39,8 @@ Importance:
 6. Stacking models: Classifier models as features and regression model as predictors
 7. Train and optimize models using GridSearchCV
 8. Random Forest - Classifier
-9. Xgboost - Regression
-* Repeat steps for Test Set
+9.a Xgboost - Regression
+9.b Repeat steps for Test Set
 10. Create predictions for 6 different periods (OCT, NOV, DEC for 2016 and 2017) and Submit to Kaggle
 
 
