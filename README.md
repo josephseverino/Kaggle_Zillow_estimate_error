@@ -16,8 +16,8 @@ Using the error(log error) from the Zestimate predictions, can we improve upon Z
 
 #### What am I solving? Why is it important? 
 
-<span style="font-family:Papyrus"> 
-Goal: Improve Zillow’s current model 
+
+##### Goal: Improve Zillow’s current model 
 * Evaluated by MAE of Regression Model
 Importance: 
 * Improving existing models
@@ -26,11 +26,11 @@ Importance:
 * Dealing with sparse data
 * Over-sampling
 
-</span>
+
 
 #### Methodology
 
-<span style="font-family:Papyrus"> 
+
 1. Download Data from Kaggle:   Train Set ≈90,000   Test Set ≈3,000,000
 2. Merge dataset on ParcelID (most code done in Python some in R)
 3. EDA and Data imputation (FancyImpute)
@@ -43,7 +43,7 @@ Importance:
 * Repeat steps for Test Set
 10. Create predictions for 6 different periods (OCT, NOV, DEC for 2016 and 2017) and Submit to Kaggle
 
-</span>
+
 
 <p align="center">
   <h3>Compare Distributions </>
