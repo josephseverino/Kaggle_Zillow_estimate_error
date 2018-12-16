@@ -68,6 +68,7 @@ Importance:
 ## Issues: Time Constraints & Computation Expense
 
 <span style="font-family:Papyrus"> 
+ Due to computation expense of running all 2.9 million points, I decided this would a better model with more powerful computation resources such as a GPU. This will be considered in future research.
 </span>
 
 <p align="center">
@@ -77,8 +78,10 @@ Importance:
    
  ## EDA: Target
 
-<span style="font-family:Papyrus"> 
-</span>
+* Both tails are larger and scarce making them large outliers 
+* Most error is centered around zero
+* Assuming the log is of base *e* we get the following predictions campared to actual sales price
+* Max error seems very unreasonable, but there is very few occurances and we are not privy to log base used to obscure error
 
 <p align="center">
   <h3>Target Variable - Log Error </>
@@ -87,8 +90,12 @@ Importance:
 
 ## Interesting Feature EDA
 
-<span style="font-family:Papyrus"> 
-</span>
+* Both plots show a relationship of as X-Values increases, Y-Values begin to lose variance.
+* Smaller values of X-axis show less predictability of our target value (High variance)
+* Elevation has to two levels of high to low variance
+* X values with lower variance tend to be of the lowest error
+* Low variance is also has a relationship with supply of given X-axis ranges
+* For future research I would consider binning these features for better accuracy
 
 <p align="center">
   <h3>Interesting Features (future feature engineering)</>
