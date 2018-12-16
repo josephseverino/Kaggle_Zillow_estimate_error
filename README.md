@@ -104,8 +104,9 @@ Importance:
 
 ## EDA: Location, Location Location
 
+* both plots are showing only outliers of log error greater than .25 and less than -.25
 * (left plot) Clustering for both over-estimates and under-estimates
-* (right plot) 
+* (right plot) better view of clustering of outliers. 
 
 <p align="center">
   <h3>Latitude vs Longitude with Log Error </>
@@ -130,6 +131,7 @@ Importance:
 ## Model Stacking
 
 <span style="font-family:Papyrus"> 
+Model stacking is a type of ensemble model where several different models are used to predict the target variable. Once that model is built, it is used to predict on both the validation and test sets. Those predictions are then used to as features in all three to help the regression model. In this particular model, I used three Random Forest Classifiers as my new features. The classification model was predicting the right and left tails of the log error distribution using various thresholds for classifying an outlier. Naturally, these points were under-represented (scarce), thus I used over-sampling to weigh the target variables as being important.
 </span>
 
 <p align="center">
@@ -161,11 +163,19 @@ Importance:
    
 ## Model Performance
 
+* Simple Random Forest model did best
+* XgBoost requires extensive hyperparameter searches for optimal performance (GPUs work best)
+* Xgboost with stacking overfitted training data
+* Stacking made model bias toward outliers
+
 <p align="center">
   <img src="/Images/performance.png" )
 </p>
 
 ## Conclusion
 
-<span style="font-family:Papyrus"> 
-</span>
+* Explore Supply of houses with certain features (e.g. 3 bedroom houses vs 20 bedroom homes have higher supply in market) 
+* Use GPU to do more robust features
+* Try stacking with regression models
+* Tune Classification models for more conservative False Positives (this will decrease True Positives as consequence)
+* Stack various types of models (i.e. KNN, Niave Bayes, SVM, Logistic Regressor, DNN etc.)
