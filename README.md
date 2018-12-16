@@ -68,7 +68,7 @@ Importance:
 ## Issues: Time Constraints & Computation Expense
 
 <span style="font-family:Papyrus"> 
- Due to computation expense of running all 2.9 million points, I decided this would a better model with more powerful computation resources such as a GPU. This will be considered in future research.
+Due to computation expenses of running all 2.9 million points, I decided it would better to build KNN features when I have access to a GPU. 
 </span>
 
 <p align="center">
@@ -90,7 +90,7 @@ Importance:
 
 ## Interesting Feature EDA
 
-* Both plots show a negative relationship between increasing X-values and variance of Target variable.
+* Both plots show a negative relationship between X-values and variance of Target variable.
 * Smaller values of X-axis show less predictability of our target value (High variance)
 * Elevation has to two levels of high to low variance 
 * X values with lower variance tend to be of the lowest error
@@ -104,7 +104,7 @@ Importance:
 
 ## EDA: Location, Location Location
 
-* both plots are showing only outliers of log error greater than .25 and less than -.25
+* Both plots are showing only outliers of log error greater than .25 and less than -.25
 * (left plot) Clustering for both over-estimates and under-estimates
 * (right plot) better view of clustering of outliers. 
 
