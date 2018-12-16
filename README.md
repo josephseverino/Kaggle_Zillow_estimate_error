@@ -6,7 +6,10 @@
 
 <span style="font-family:Papyrus"> 
 Using the error(log error) from the Zestimate predictions, can we improve upon Zillow's home sales predictions? 
+
 </span>
+
+[Kaggle Competition Link](https://www.kaggle.com/c/zillow-prize-1)
 
 #### Introduction
 
