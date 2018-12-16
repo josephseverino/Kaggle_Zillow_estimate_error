@@ -136,13 +136,19 @@ Importance:
   <h3>Tune Regression Model: Methodology </>
   <img src="/Images/tuneMethodology.png" )
 </p>
-
+   
+## 
+   
 <p align="center">
   <h3>Plots: Regresssion Results </>
   <img src="/Images/regResults.png" )
 </p>
    
+## 
+
 <p align="center">
   <h3>Model Performance </>
   <img src="/Images/performance.png" )
 </p>
+
+##
