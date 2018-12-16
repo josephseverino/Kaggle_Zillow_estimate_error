@@ -144,10 +144,9 @@ Importance:
   <img src="/Images/regResults.png" )
 </p>
    
-## Performance
+## Model Performance
 
 <p align="center">
-  <h3>Model Performance </>
   <img src="/Images/performance.png" )
 </p>
 
