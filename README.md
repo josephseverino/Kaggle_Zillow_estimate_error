@@ -77,12 +77,72 @@ Importance:
   <img src="/Images/targetEDA.png" )
 </p>
 
-## Interesting EDA: May use for future engineering
+## Interesting Feature EDA
 
 <span style="font-family:Papyrus"> 
 </span>
 
 <p align="center">
-  <h3>Interesting Features </>
+  <h3>Interesting Features (future feature engineering)</>
   <img src="/Images/EDAinterestingFeats.png" )
+</p>
+
+## EDA: Location, Location Location
+
+<span style="font-family:Papyrus"> 
+</span>
+
+<p align="center">
+  <h3>Latitude vs Longitude with Log Error </>
+  <img src="/Images/GEOEDA.png" )
+</p>
+
+<p align="center">
+  <h3>Location Zoomed In</>
+  <img src="/Images/zoomGEO.png" )
+</p>
+
+<p align="center">
+  <h3>Time Series</>
+  <img src="/Images/timeseries.png" )
+</p>
+   
+<p align="center">
+  <h3>Year Built vs Log Error</>
+  <img src="/Images/yearbuilt.png" )
+</p>
+
+## Model Stacking
+
+<span style="font-family:Papyrus"> 
+</span>
+
+<p align="center">
+  <h3>Model Stacking Visual</>
+  <img src="/Images/modelStack.png" )
+</p>
+   
+<p align="center">
+  <h3>Classifier: Outliers as Features</>
+  <img src="/Images/classifier.png" )
+</p>
+   
+## Regression Model
+
+<span style="font-family:Papyrus"> 
+</span>
+
+<p align="center">
+  <h3>Tune Regression Model: Methodology </>
+  <img src="/Images/tuneMethodology.png" )
+</p>
+
+<p align="center">
+  <h3>Plots: Regresssion Results </>
+  <img src="/Images/regResults.png" )
+</p>
+   
+<p align="center">
+  <h3>Model Performance </>
+  <img src="/Images/performance.png" )
 </p>
