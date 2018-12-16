@@ -54,5 +54,5 @@ Importance:
 
 <p align="center">
   <h3>Nearest Neighbor Feature Engineering </>
-  <img src="Kaggle_Zillow_estimate_error/Images/NNfeateng.png" )
+  <img src="../Images/NNfeateng.png" )
 </p>
