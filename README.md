@@ -52,12 +52,13 @@ Importance:
 <span style="font-family:Papyrus"> 
  In the display below, we can visually see how I engineered my features around each data point. The circle represents euclidean distance from the center point in red. All the surrounding points are it's nearest neighbors (NN). Taking in several sizes of NN's (i.e. K = 5, 20 & 100 neighbors) we can construct many location features to compare relative relationships. For example, the features that were created consisted of the following (all with relation to mean of neighbors: feature/average of neighbors) :
 </span>
- * Bath count
- * Bedroom count
- * Square footage
- * Taxamount (psuedo relation to value of home)
- * Log Error
- * Elevation
+
+* Bath count
+* Bedroom count
+* Square footage
+* Taxamount (psuedo relation to value of home)
+* Log Error
+* Elevation
  
 <p align="center">
   <h3>Nearest Neighbor Feature Engineering </>
