@@ -73,7 +73,7 @@ Importance:
 </span>
 
 <p align="center">
-  
+  <h3>Target Variable - Log Error </>
   <img src="/Images/targetEDA.png" )
 </p>
 
