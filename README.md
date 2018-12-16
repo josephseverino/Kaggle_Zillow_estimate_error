@@ -78,10 +78,10 @@ Importance:
    
  ## EDA: Target
 
-* Both tails are larger and scarce making them large outliers 
+* Left and right tails are long 
 * Most error is centered around zero
-* Assuming the log is of base *e* we get the following predictions campared to actual sales price
-* Max error seems very unreasonable, but there is very few occurances and we are not privy to log base used to obscure error
+* Assuming the log is of base *e* we get the following predictions compared to actual sales price
+* Max error seems very unreasonable, but there are very few occurances. 
 
 <p align="center">
   <h3>Target Variable - Log Error </>
@@ -90,11 +90,11 @@ Importance:
 
 ## Interesting Feature EDA
 
-* Both plots show a relationship of as X-Values increases, Y-Values begin to lose variance.
+* Both plots show a negative relationship between increasing X-values and variance of Target variable.
 * Smaller values of X-axis show less predictability of our target value (High variance)
-* Elevation has to two levels of high to low variance
+* Elevation has to two levels of high to low variance 
 * X values with lower variance tend to be of the lowest error
-* Low variance is also has a relationship with supply of given X-axis ranges
+* Low variance also has a relationship with supply of given X-axis ranges
 * For future research I would consider binning these features for better accuracy
 
 <p align="center">
@@ -104,8 +104,8 @@ Importance:
 
 ## EDA: Location, Location Location
 
-<span style="font-family:Papyrus"> 
-</span>
+* (left plot) Clustering for both over-estimates and under-estimates
+* (right plot) 
 
 <p align="center">
   <h3>Latitude vs Longitude with Log Error </>
