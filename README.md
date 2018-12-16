@@ -56,3 +56,33 @@ Importance:
   <h3>Nearest Neighbor Feature Engineering </>
   <img src="/Images/NNfeateng.png" )
 </p>
+
+## Issues: Time Constraints & Computation Expense
+
+<span style="font-family:Papyrus"> 
+</span>
+
+<p align="center">
+  <h3>Feature Engineering and Imputation Issues </>
+  <img src="/Images/issueSlide.png" )
+</p>
+   
+ ## EDA: Target
+
+<span style="font-family:Papyrus"> 
+</span>
+
+<p align="center">
+  
+  <img src="/Images/targetEDA.png" )
+</p>
+
+## Interesting EDA: May use for future engineering
+
+<span style="font-family:Papyrus"> 
+</span>
+
+<p align="center">
+  <h3>Interesting Features </>
+  <img src="/Images/EDAinterestingFeats.png" )
+</p>
